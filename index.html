@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>adventute</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!---NavBar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contacts</li>
+            
+        </ul>
+        <img src="./img/main-menu.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorfull World</h2>
+            <div class="line"></div>
+            <h1>A WonderFull Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- EVENTS-->
+    <section class="events">
+        <div class="title">
+            <h1> Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/travel_img1.jpg" alt="" class="image-style">
+                <h4>Everest camp Trek</h4>
+                <p>Distance. The re4 days of full-on 
+                    trekking (that's right, your “rest days” involve walking too!) to complete</p>
+                    <a href="#" class="ctn">Learn more</a>
+            </div>
+
+            <div class="col">
+                <img src="./img/travel_img2.jpg" alt="" class="image-style">
+                <h4 >Everest camp Trek</h4>
+                <p>Distance. The rewards of the trek don't come  
+                    trekking (that's right, your “rest days” involve walking too!) to complete</p>
+                    
+                    <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="explore">
+        <div class="explore-content">  
+            
+                <h1>EXPLORE THE WORLD</h1>
+              <p>Distance. The rewards of the trek don't come  
+              trekking (that's right, your “rest days” involve walking too!) to complete</p>
+              <a href="#" class="ctn">Learn More</a>
+             
+        </div>
+    </section>
+
+
+    <section class="tours">
+      <div class="row">
+           <div class="col content-col">
+               <h1>UPCOMING TOURS& DESTINATIONS</h1>
+               <div class="line"> </div>
+                 <P>Distance. The rewards of the trek don't come trekking (that's right, your “rest days” involve </P> 
+                   <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                        <img src="./img/imges_1.jpg" alt="">
+                        <img src="./img/images_2.jpg" alt="">
+                        <img src="./img/images_3.jpg" alt="">
+                         <img src="./img/images_4.jpg" alt="">
+                </div>
+            </div>
+
+        
+      </div>
+     
+
+    </section>
+
+    <section class="footer">
+        <p>123 fifth Avenue, NY 10160, New delhi, India | Phone: 8967344321 | Email:contact@example.com </p>
+        <p>Copyright © 2024 Adenture</p>
+
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+
+</body>
+</html>
